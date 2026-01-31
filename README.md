@@ -6,6 +6,9 @@ This repo contains scripts and patches to add battery-backed high score saving t
 
 [Atari '90s Rewind Collection - ModRetro](https://modretro.com/products/atari)
 
+### Quickstart
+Download the .ips from [Releases](https://github.com/davidgovea/centipede_mod/releases) and use an [online patcher](https://www.romhacking.net/patch/) to apply to your personal ROM dump.
+
 ## What this patch does
 - Enables SRAM+Battery in the cartridge header.
 - Loads high scores from SRAM on boot (or falls back to defaults if empty).
@@ -17,6 +20,7 @@ This repo contains scripts and patches to add battery-backed high score saving t
 - `patches/centipede_highscore_save_v0.1.ips` – IPS patch (generated from clean ROM + patched ROM).
 
 ## Usage
+
 ### 1) Patch a clean ROM
 ```
 python3 scripts/patch_highscore_save.py \
