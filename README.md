@@ -2,7 +2,9 @@
 
 Version: 0.1
 
-This repo contains scripts and patches to add battery-backed high score saving to the **Centipede** Game Boy Color ROM. It **does not** include any copyrighted ROM data.
+This repo contains scripts and patches to add battery-backed high score saving to the **ModRetro Atari Centipede** Game Boy Color ROM. It **does not** include any copyrighted ROM data.
+
+[Atari '90s Rewind Collection - ModRetro](https://modretro.com/products/atari)
 
 ## What this patch does
 - Enables SRAM+Battery in the cartridge header.
