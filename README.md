@@ -12,7 +12,7 @@ This repo contains scripts and patches to add battery-backed high score saving t
 ## Files
 - `scripts/patch_highscore_save.py` – patches a clean ROM into a save-enabled ROM.
 - `scripts/make_ips.py` – generates an IPS patch from original + modified ROMs.
-- `patches/centipede_highscore_save.ips` – IPS patch (generated from clean ROM + patched ROM).
+- `patches/centipede_highscore_save_v0.1.ips` – IPS patch (generated from clean ROM + patched ROM).
 
 ## Usage
 ### 1) Patch a clean ROM
@@ -27,7 +27,7 @@ python3 scripts/patch_highscore_save.py \
 python3 scripts/make_ips.py \
   --orig /path/to/CENTIPEDE-0.orig.gbc \
   --mod  /path/to/CENTIPEDE-0.gbc \
-  --out  patches/centipede_highscore_save.ips
+  --out  patches/centipede_highscore_save_v0.1.ips
 ```
 
 ## Notes
